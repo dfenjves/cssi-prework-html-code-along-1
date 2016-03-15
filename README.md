@@ -18,43 +18,9 @@ In this exercise you will code along with the video to review the HTML fundament
 
 ## Instructions
 
-### Fork this repository.
+### Open the Repository
 
-Forking is the process of making a personal copy of the Learn lab on GitHub. It's basically how you tell Learn that you have started working on a lab.
-
-![What's a Fork](http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/git-workflow-1.png)
-
-To fork, just click the <img src="https://dl.dropboxusercontent.com/s/1fy8e0132r4f0pv/2015-05-06%20at%2011.38%20AM.png" style="display: inline; height: 26px; vertical-align: bottom"> button on GitHub.
-
-![Fork on GitHub](http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/ironboard-labs-step-1.jpg)
-
-Then select your personal GitHub account as the location to fork to.
-
-![Fork to Your Account](http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/ironboard-labs-step-1b.jpg)
-
-### Clone Your Fork.
-
-Cloning is the process of downloading a copy of the lab from your personal fork on GitHub to your computer.
-
-![What's a Clone](http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/git-workflow-2.png)
-
-To clone, click the  copy button next to the Clone URL to copy it to your clipboard (you can also copy it by selecting the text and copying it to your clibpoard as you would normally).
-
-![The Clone URL](http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/ironboard-labs-step-2.jpg)
-
-Next, in Terminal, navigate to the parent directory where you would like to place this lab. You can place your files for this course wheneever you like, but be consitent and use one place continuously. A good place on Mac would be in your `Development` directory within your home directory `~`. You can change directory in your terminal by typing `cd ~/Development`. If you are on a PC and using Babun you can create a folder inside your user folder `mkdir ~/Development`, then `cd Development`.
-
-To clone a lab, type `git clone <the clone URL you copied from GitHub>`
-
-It would look something like this: `git clone git@github.com:jongrover/code-along-ex-1.git`
-
-You should see `git@github.com`, your username, like `jongrover`, and the lab you want to work on, like `code-along-ex-1`.
-
-Type your clone command in your terminal and hit enter and you should see git download the repository to your computer.
-
-### Change directory into your cloned copy of this repository.
-
-In terminal type `cd code-along-ex-1`. Then, bring this folder up in your preferred code editor. For example to use Sublime Text on Mac type `subl .`
+Use the `Open` button on this page to fork and clone the project repository locally. Once you've done this, open up the project directory in Atom using `atom .` or `open . -a "Atom"`
 
 ### Starting a New Site Project
 
@@ -103,23 +69,7 @@ Pushing is the process of taking your local code and commits and syncing them, o
 
 ### Make a Pull Request on Github
 
-Submitting a pull request is how you submit your lab to be evaluated or graded on Learn.
-
-![What's a Pull Request](http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/git-workflow-5.png)
-
-Creating a pull request is easy. You can do it entirely through the GitHub interface.
-
-A. Click the green Pull Request button.
-
-![Opening a Pull Request](http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/ironboard-labs-step-4.jpg)
-
-B. After reviewing the comparison code and making sure it shows your solution, click the Create pull request button.
-
-![Confirm Pull Request](http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/ironboard-labs-step-4e.jpg)
-
-C. Then click Create pull request button again.
-
-![Create Pull Request](http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/ironboard-labs-step-4f.jpg)
+Submitting a pull request is how you submit your lab to be evaluated or graded on Learn. We've abstracted some of the complexities of doing this, so all you need to do is type `learn submit`
 
 ## Resources
 
